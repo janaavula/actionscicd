@@ -1,12 +1,11 @@
 name: Continuous Deployment Workflow
 
+# Needto validate this.
 # This workflow is triggered whenever commits are pushed to the main branch
 on:
   push:
     branches:
       - 'main'
-    paths:
-      - 'web/**'
   workflow_dispatch:
 
 defaults:
